@@ -1,0 +1,8 @@
+<ol class="post-list">
+    {{!-- Itterates this template for every post object, minimizing code required --}}
+    {{#each posts as |post|}}
+    <li>
+        {{> post-info post}}
+    </li>
+    {{/each}}
+</ol>
